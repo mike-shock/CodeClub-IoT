@@ -1,0 +1,16 @@
+
+Урок	Тема				Справка				Практика
+00	IoT-Acquaintance.pdf		
+01	IoT-Internet_of_Things.pdf	
+02	IoT-Raspberry_Pi.pdf		
+03	IoT-Raspbian.pdf		
+04	IoT-Shell_scripts.pdf		IoT-Shell_commands.pdf		01-Shell_scripts-practice.pdf
+05	IoT-GPIO.pdf			IoT-GPIO_pinout.pdf		02-GPIO-practice.pdf
+06	IoT-Ruby.pdf			IoT-Ruby_syntax.pdf		03-Ruby-practice.pdf
+
+
+
+
+
+
+

@@ -1,2 +1,6 @@
 # CodeClub-IoT
-Educational materials for CodeClub on IoT in Russian.
+Educational materials in Russian for CodeClub on IoT (Internet of Things).
+
+Учебные материалы для кружка "Интернет вещей".
+Шадринский государственный педагогоческий университет.
+Преподаватель: Михаил Васильевич Шохирев.

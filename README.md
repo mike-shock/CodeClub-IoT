@@ -1,8 +1,12 @@
 # CodeClub-IoT
-Educational materials in Russian for CodeClub on IoT (Internet of Things).
+Educational materials in Russian for the CodeClub on Internet of Things (IoT) at Shadrinsk State Pedagogical University (http://shgpi.edu.ru/en/).
 
-Учебные материалы для кружка "Интернет вещей" в Шадринском государственном педагогоческом университете (ШГПУ).
+Учебные материалы для кружка инженерного творчества «Интернет вещей» (IoT) в Шадринском государственном педагогоческом университете (http://shgpi.edu.ru/).
+
+Платформа: Raspberry Pi (Raspberry Pi 3 Model B+).
 
 Преподаватель: Михаил Васильевич Шохирев.
 
-Список занятий - в IoT-Sessions.pdf.
+Автор учебных материалов: Михаил Васильевич Шохирев.
+
+Список занятий - в файле "IoT-Sessions.pdf".

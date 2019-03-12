@@ -12,6 +12,8 @@ And the 1st CodeClub to perform physical computing in the Ruby programming langu
 
 ### Hardware / Оборудование
 * Raspberry Pi (Raspberry Pi 3 Model B+).
+* LEDs
+* push button
 * DHT11
 
 ### Programming languages / Языки программирования

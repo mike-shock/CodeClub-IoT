@@ -18,6 +18,7 @@ Programming languages: bash, Ruby.
 CodeClub leader: Mikhail V. Shokhirev.
 Преподаватель: Михаил Васильевич Шохирев.
 
+Author of educational materials: Mikhail V. Shokhirev.
 Автор учебных материалов: Михаил Васильевич Шохирев.
 
 List of sessions: in "IoT-Sessions.pdf" file.

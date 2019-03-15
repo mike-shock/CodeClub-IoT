@@ -1,7 +1,5 @@
 #!/usr/bin/ruby
 
-require 'socket'
-
 require 'socket'                   # классы TCPSocket, TCPServer
 
 server = TCPServer.new 5000        # новый TCPServer на порту 5000

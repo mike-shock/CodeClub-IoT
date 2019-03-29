@@ -1,4 +1,4 @@
 #!/bin/bash
 
-BROKER=10.36.254.16
+BROKER=127.0.0.1
 mosquitto_sub -h $BROKER -t "sensor/temperature"

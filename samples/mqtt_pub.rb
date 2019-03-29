@@ -4,7 +4,7 @@
 #require 'rubygems'
 require 'mqtt'
 
-BROKER = '10.36.254.16'
+BROKER = '127.0.0.1'
 
 MQTT::Client.connect(BROKER) do |client|
   client.publish('sensor/temperature', '25.5')

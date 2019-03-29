@@ -2,7 +2,7 @@
 # https://github.com/njh/ruby-mqtt
 require 'mqtt'
 
-BROKER = '10.36.254.16'
+BROKER = '127.0.0.1'
 PORT=1883
 # Subscribe example
 MQTT::Client.connect(BROKER, PORT) do |client|

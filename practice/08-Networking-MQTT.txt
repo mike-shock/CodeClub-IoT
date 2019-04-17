@@ -13,7 +13,7 @@
 № 08.0
     1. Установите брокер и клиенты Mosquitto на свою Raspberry Pi, выполнив в терминальном окне команды:
        sudo apt-get update
-       sudo apt-get install mosquitto mosquitto-clientsrb
+       sudo apt-get install mosquitto mosquitto-clients
     2. Откройте 1-е терминальное окно. Запустите проверочный командный скрипт-подписчик, который ждёт сообщения в теме sensor/temperature:
        ~/CodeClub-IoT/samples/mqtt_sub.sh
     3. Откройте 2-е терминальное окно. Запустите проверочный командный скрипт-издатель, который отправит сообщение в тему sensor/temperature:
@@ -52,7 +52,7 @@
 № 08.2: Чат на MQTT.
 
 1. Пусть одна из Raspberry Pi будет брокером MQTT. Узнайте IP-адрес её беспроводного интерфейса (wlan0) командой:
-    ip address
+    ip address | grep wlan0 | grep inet
 
 2. Обменяйтесь сообщениями с товарищами через этот брокер, публикуя сообщения в определённой теме (договоритесь, как она будет называться), а затем читая сообщения из этой темы.
 Проще всего это сделать в 2-х командных окнах с помощью командных клиентов mosquitto_sub и mosquitto_pub. С какими параметрами вызывать эти утилиты, можно посмотреть в скриптах ~/CodeClub-IoT/samples/mqtt_sub.sh и  ~/CodeClub-IoT/samples/mqtt_pub.sh.

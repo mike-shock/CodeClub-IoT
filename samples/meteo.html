@@ -1,0 +1,38 @@
+ meteo_chart.html<html>
+ <head>
+  <meta http-equiv="refresh" content="5">
+  <meta http-equiv='content-type' content='text/html;charset=UTF-8' />
+  <script src='Chart.bundle.min.js'></script>
+  <script src='chart_data.js'></script>
+ </head>
+ <body>
+  <div>
+    <canvas id="line-chart" width="700" height="300"></canvas>
+    <script>
+  // <!--
+  temp_names = ["Температура воздуха, °C", "Ощущение RealFeel", "Точка росы"];
+  new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: label_set,
+      datasets: [{ 
+          data: temp_set,
+          label: temp_names[0],
+          borderColor: "#FF0000",
+          fill: false
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Температура'
+      }
+    }
+  });
+  // -->
+  </script>
+  </div>
+  <hr />
+ </body>
+</html>

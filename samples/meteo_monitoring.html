@@ -1,0 +1,50 @@
+<html>
+ <head>
+  <meta http-equiv="refresh" content="5">
+  <meta http-equiv='content-type' content='text/html;charset=UTF-8' />
+  <script src='Chart.bundle.min.js'></script>
+  <script src='chart_data1.js'></script>
+  <script src='chart_data2.js'></script>
+ </head>
+ <body>
+  <div>
+    <canvas id="line-chart" width="700" height="300"></canvas>
+    <script>
+  // <!--
+  temp_names = ["Температура воздуха, °C", "Ощущение RealFeel", "Точка росы"];
+  new Chart(document.getElementById("line-chart"), {
+    type: 'line',
+    data: {
+      labels: ['11:00', '12:00', '13:00', '14:00', '15:00', '15:00', '17:00', '18:00', '19:00', '20:00', '21:00', '22:00', '23:00', '00:00', '01:00', '02:00', '03:00', '04:00', '05:00'],
+      datasets: [{ 
+          data: temp_sets[0],
+          label: temp_names[0],
+          borderColor: "#FF0000",
+          fill: false
+        }, { 
+          data: temp_sets[1],
+          label: temp_names[1],
+          borderColor: "#888888",
+          fill: false
+        },
+         { 
+          data: temp_sets[2],
+          label: temp_names[2],
+          borderColor: "#00FFFF",
+          fill: false
+        }
+      ]
+    },
+    options: {
+      title: {
+        display: true,
+        text: 'Температура в Шадринске 17.05.2019 г.'
+      }
+    }
+  });
+  // -->
+  </script>
+  </div>
+  <hr />
+ </body>
+</html>

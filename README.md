@@ -6,6 +6,9 @@ And the 1st CodeClub to perform physical computing in the Ruby programming langu
 * Один из первых официально зарегистрированных кружков (www.codeclubworld.org) по программированию на Raspberry Pi в России.
 И 1-й кружок с занятиями по программированию физических устройств на языке Ruby.
 
+### Сообщество / Group
+https://vk.com/club182909395
+
 ### Topic / Тема
 * Educational materials in Russian for the CodeClub on Internet of Things (IoT) at Shadrinsk State Pedagogical University (http://shgpi.edu.ru/en/).
 * Учебные материалы для кружка инженерного творчества «Интернет вещей» (IoT) в Шадринском государственном педагогоческом университете (http://shgpi.edu.ru/).
